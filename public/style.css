@@ -1,0 +1,140 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Centering the Form */
+.container {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Input Fields */
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Buttons */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff5733;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c70039;
+}
+
+/* Links */
+a {
+    display: block;
+    margin-top: 10px;
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Index Page Styling */
+.index-container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.index-container h1 {
+    font-size: 36px;
+    color: #ffcc00;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.index-container p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.index-links {
+    margin-top: 20px;
+}
+
+.index-links a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #ff5733;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.index-links a:hover {
+    background-color: #c70039;
+}
+
+/* Dashboard Page Styling */
+.dashboard-container {
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+}
+
+.dashboard-container h1 {
+    font-size: 36px;
+    color: #ffcc00;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.dashboard-container p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.dashboard-links {
+    margin-top: 20px;
+}
+
+.dashboard-links a {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 20px;
+    background-color: #28a745;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.dashboard-links a:hover {
+    background-color: #218838;
+}
+
+.logout-button {
+    background-color: #ff5733 !important;
+}
+
+.logout-button:hover {
+    background-color: #c70039 !important;
+}
